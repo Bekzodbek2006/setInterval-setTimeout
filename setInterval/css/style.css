@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #42f5c5;
+}
+
+
+.div {
+    position: relative;
+}
+
+.div .svet {
+    position: absolute;
+    padding: 15px 15px;
+    top: 100px;
+    background-color: #000;
+    left: 200px;
+    border-radius: 5px;
+}
+
+.div .svet .square {
+    width: 100px;
+    height: 100px;
+    background-color: #3d3d3d;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.div .svet .square2 {
+    width: 100px;
+    height: 100px;
+    background-color: #3d3d3d;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.div .svet .square3 {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #3d3d3d;
+    border-radius: 50%;
+}
+
+.div .car {
+    position: absolute;
+    top: 500px;
+    left: 70px;
+}
+
+@media (max-width:800px) {
+    .div .svet {
+        top: 30px;
+        left: 50px;
+    }
+
+    .div .car {
+        top: 250px;
+        left: 30px;
+    }
+
+    .div .svet .square {
+        width: 30px;
+        height: 30px;
+    }
+
+    .div .svet .square2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .div .svet .square3 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .div .car img {
+        width: 100px;
+    }
+}
